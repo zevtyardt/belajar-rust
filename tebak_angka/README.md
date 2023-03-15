@@ -1,18 +1,18 @@
 #### output
 
 ```
-GAME SEDERHANA MENEBAK ANGKA DARI 1 SAMPAI 100
+GAME SEDERHANA MENEBAK ANGKA DARI 1 SAMPAI 10000
 
-tebakanmu (1 - 100): 50
+tebakanmu (1 - 10000): 50
 hasil: terlalu besar
-tebakanmu (1 - 100): 40
+tebakanmu (1 - 10000): 40
 hasil: terlalu besar
-tebakanmu (1 - 100): 30
+tebakanmu (1 - 10000): 30
 hasil: terlalu kecil
-tebakanmu (1 - 100): 35
+tebakanmu (1 - 10000): 35
 hasil: terlalu besar
-tebakanmu (1 - 100): 33
+tebakanmu (1 - 10000): 33
 hasil: terlalu besar
-tebakanmu (1 - 100): 32
+tebakanmu (1 - 10000): 32
 hasil: kamu menang di percobaan ke-6
 ```
