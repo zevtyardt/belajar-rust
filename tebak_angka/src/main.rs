@@ -4,7 +4,7 @@ use std::io;
 use std::io::Write;
 
 fn main() {
-    let angka = rand::thread_rng().gen_range(1..10001);
+    let angka= rand::thread_rng().gen_range(1..10001);
     let mut percobaan = 0;
 
     println!("\nGAME SEDERHANA MENEBAK ANGKA DARI 1 SAMPAI 10000\n");
