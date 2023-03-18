@@ -88,7 +88,7 @@ fn main() {
         for project in projects[1..].iter() {
             write!(
                 readme_file,
-                "|||{}|{}|",
+                "|||{}|{}|\n",
                 project.get("folder").unwrap(),
                 project.get("desc").unwrap()
             )
