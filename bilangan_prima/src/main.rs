@@ -21,15 +21,15 @@ fn main() {
         io::stdin().read_line(&mut angka).expect("opps, ada error");
         let angka: u64 = match angka.trim().parse() {
             Ok(num) => num,
-            Err(_) => continue
+            Err(_) => continue,
         };
         let prima = is_prime(&angka);
-        
+
         if prima {
             println!("hasil: {} adalah bilangan prima", angka);
         } else {
             println!("hasil: {} bukan bilangan prima", angka);
         }
         return;
-    }    
+    }
 }
