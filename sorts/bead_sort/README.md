@@ -1,3 +1,8 @@
+#### deskripsi
+
++ Implementasi algoritma _bead sort_ atau _gravity sort_
++ Tanggal dibuat: 18 Maret 2023
+
 #### output
 
 ```

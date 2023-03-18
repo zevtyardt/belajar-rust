@@ -1,3 +1,8 @@
+#### deskripsi
+
++ Permainan sederhana menebak angka acak dari 1 sampai 10000
++ Tanggal dibuat: 15 Maret 2023
+
 #### output
 
 ```
