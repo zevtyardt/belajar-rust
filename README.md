@@ -6,4 +6,4 @@
 |2|16 Maret 2023|[bilangan_prima](/bilangan_prima)|Program yang mengecek apakah suatu bilangan adalah prima|
 |3|17 Maret 2023|[palindrome](/palindrome)|Program untuk mengecek apakah kalimat termasuk palindrome|
 |4|18 Maret 2023|[book_to_scrape](/book_to_scrape)|_Scrape_ produk dari website books.toscrape.com|
-|5||[bead_sort](/sorts/bead_sort)|Implementasi algoritma _bead sort_ atau _gravity sort_|
+|5||[sorts/bead_sort](/sorts/bead_sort)|Implementasi algoritma _bead sort_ atau _gravity sort_|
