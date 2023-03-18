@@ -1,5 +1,9 @@
-#### output
+#### deskripsi
 
++ Program untuk mengecek apakah suatu bilangan adalah prima|
++ dibuat pada 15 Maret 2023
+
+#### output
 ```
 $ ./main
 masukan angka: 7
