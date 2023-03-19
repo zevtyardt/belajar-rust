@@ -76,7 +76,7 @@ fn main() {
     write!(readme_file, "#### Table\n").unwrap();
     write!(readme_file, "\n").unwrap();
     write!(readme_file, "|Hari ke|Tanggal|Folder|Deskripsi|\n").unwrap();
-    write!(readme_file, "|:--|:--|:--|:--|\n").unwrap();
+    write!(readme_file, "|:--:|:--:|:--|:--|\n").unwrap();
 
     let mut start = 0;
     let mut is_skip_day = false;
