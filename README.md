@@ -4,6 +4,8 @@
 
 Repo ini berisi semua program yang saya buat dalam rangka belajar bahasa pemrograman Rust
 
+Total 7 program telah dibuat sejauh ini 🎉
+
 </div>
 
 #### Table

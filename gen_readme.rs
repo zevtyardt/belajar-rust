@@ -66,7 +66,11 @@ fn main() {
     let mut readme_file = File::create("./README.md").unwrap();
 
     write!(readme_file, "<div align=\"center\">\n\n# Rust 🦀\n\n").unwrap();
-    write!(readme_file, "Repo ini berisi semua program yang saya buat dalam rangka belajar bahasa pemrograman Rust\n\n</div>\n").unwrap();
+    let mut total = 0;
+    for (_x, y) in data.iter() {
+        total += y.len();
+    }
+    write!(readme_file, "Repo ini berisi semua program yang saya buat dalam rangka belajar bahasa pemrograman Rust\n\nTotal {} program telah dibuat sejauh ini 🎉\n\n</div>\n", total).unwrap();
 
     write!(readme_file, "\n").unwrap();
     write!(readme_file, "#### Table\n").unwrap();
