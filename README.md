@@ -19,4 +19,4 @@ Repo ini berisi semua program yang saya buat dalam rangka belajar bahasa pemrogr
 |5|19 Maret 2023|[jadwal_sholat](/jadwal_sholat)|Program untuk menampilkan jadwal sholat|
 
 
-_dibuat menggunakan [gen_readme.rs](/gen_readme.rs)_
+_dibuat otomatis menggunakan [gen_readme.rs](/gen_readme.rs)_
