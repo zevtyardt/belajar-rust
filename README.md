@@ -11,7 +11,7 @@ Total 7 program telah dibuat sejauh ini 🎉
 #### Table
 
 |Hari ke|Tanggal|Folder|Deskripsi|
-|:--:|:--:|:--:|:--:|
+|:--|:--|:--|:--|
 |1|15 Maret 2023|[tebak_angka](/tebak_angka)|Permainan sederhana menebak angka acak dari 1 sampai 10000|
 |2|16 Maret 2023|[bilangan_prima](/bilangan_prima)|Program untuk mengecek apakah suatu bilangan adalah prima|
 |3|17 Maret 2023|[palindrome](/palindrome)|Program untuk mengecek apakah kalimat termasuk palindrome|
