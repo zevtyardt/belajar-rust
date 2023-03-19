@@ -95,7 +95,6 @@ fn main() {
             .unwrap();
         }
     }
-    println!("Done table created");
 
     /*
     write!(readme_file, "\n\n").unwrap();
@@ -111,5 +110,7 @@ fn main() {
         readme_file,
         "\n\n_dibuat menggunakan [gen_readme.rs](/gen_readme.rs)_\n"
     )
-    .unwrap()
+    .unwrap();
+
+    println!("{}", read_to_string("README.md").unwrap().as_str());
 }
