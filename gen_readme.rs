@@ -131,7 +131,7 @@ fn main() {
 
     write!(
         readme_file,
-        "\n\n_dibuat menggunakan [gen_readme.rs](/gen_readme.rs)_\n"
+        "\n\n_dibuat otomatis menggunakan [gen_readme.rs](/gen_readme.rs)_\n"
     )
     .unwrap();
 
