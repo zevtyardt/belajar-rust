@@ -73,13 +73,33 @@ fn main() {
     write!(readme_file, "\n").unwrap();
     write!(readme_file, "|Hari ke|Tanggal|Folder|Deskripsi|\n").unwrap();
     write!(readme_file, "|:--:|:--:|:--:|:--:|\n").unwrap();
-    for (index, (tanggal, projects)) in data.iter().enumerate() {
+
+    let mut start = 0;
+    let mut is_skip_day = false;
+    let mut hari_ke = 1;
+    for (tanggal, projects) in data.iter() {
         let first_project = &projects[0];
+        let d: Vec<&str> = tanggal.as_str().split_whitespace().collect();
+        let d: i32 = d[0].parse().unwrap();
+
+        if start == 0 {
+            start = d - 1;
+        }
+
+        if hari_ke != 1 {
+        let dist = (d - start) - hari_ke;
+        if !is_skip_day && dist != 1 {
+             write!(readme_file, "|...||||\n").unwrap();
+            is_skip_day = true;
+        } else if dist == 1 {
+            is_skip_day = false
+        }}
+        hari_ke = d - start;
 
         write!(
             readme_file,
             "|{}|{}|{}|{}|\n",
-            index + 1,
+            hari_ke,
             tanggal,
             first_project.get("folder").unwrap(),
             first_project.get("desc").unwrap()
@@ -94,6 +114,8 @@ fn main() {
             )
             .unwrap();
         }
+
+       // hari_ke = d - start;
     }
 
     /*
