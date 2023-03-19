@@ -87,13 +87,14 @@ fn main() {
         }
 
         if hari_ke != 1 {
-        let dist = (d - start) - hari_ke;
-        if !is_skip_day && dist != 1 {
-             write!(readme_file, "|...||||\n").unwrap();
-            is_skip_day = true;
-        } else if dist == 1 {
-            is_skip_day = false
-        }}
+            let dist = (d - start) - hari_ke;
+            if !is_skip_day && dist != 1 {
+                write!(readme_file, "|...||||\n").unwrap();
+                is_skip_day = true;
+            } else if dist == 1 {
+                is_skip_day = false
+            }
+        }
         hari_ke = d - start;
 
         write!(
@@ -115,7 +116,7 @@ fn main() {
             .unwrap();
         }
 
-       // hari_ke = d - start;
+        // hari_ke = d - start;
     }
 
     /*
