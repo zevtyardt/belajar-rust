@@ -16,7 +16,7 @@ Repo ini berisi semua program yang saya buat dalam rangka belajar bahasa pemrogr
 |4|18 Maret 2023|[book_to_scrape](/book_to_scrape)|_Scrape_ produk dari website books.toscrape.com|
 |||[sorts/bead_sort](/sorts/bead_sort)|Implementasi algoritma _bead sort_ atau _gravity sort_|
 |||[anagram](/anagram)|Program untuk mengecek apakah kedua string merupakan anagram, yaitu kedua string memiliki karakter yang sama, namun urutan karakternya berbeda|
-|5|19 Maret 2023|[jadwal_sholat](/jadwal_sholat)|Program untuk menampikkan jadwal sholat|
+|5|19 Maret 2023|[jadwal_sholat](/jadwal_sholat)|Program untuk menampilkan jadwal sholat|
 
 
 _dibuat menggunakan [gen_readme.rs](/gen_readme.rs)_
