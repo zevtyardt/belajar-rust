@@ -5,20 +5,6 @@ use std::{
     path::Path,
 };
 
-/*
-fn format_dir(fullpath: Vec<&str>) -> String {
-    let s = &fullpath[1..];
-    let folder = s.last().unwrap();
-
-    if s.len() == 1 {
-        format!("[{folder}](/{folder})")
-    } else {
-        let fullpath = s.join("/");
-        format!("[{folder}](/{fullpath})")
-    }
-}
-*/
-
 fn walkdir(dir: &Path, indent: usize, data: &mut BTreeMap<String, Vec<BTreeMap<String, String>>>) {
     for entry in read_dir(dir).unwrap() {
         let entry = entry.unwrap();
@@ -26,7 +12,6 @@ fn walkdir(dir: &Path, indent: usize, data: &mut BTreeMap<String, Vec<BTreeMap<S
         let splited: Vec<&str> = path.to_str().unwrap().split("/").collect();
 
         if path.is_dir() && ![".git", "target", "src"].contains(splited.last().unwrap()) {
-            //lines.push(format!("{}+ {}", " ".repeat(indent), format_dir(splited)));
             walkdir(&path, indent + 2, data);
         } else if splited.len() > 2 && splited.contains(&"README.md") {
             let readme = read_to_string(&path).unwrap();
@@ -59,7 +44,6 @@ fn walkdir(dir: &Path, indent: usize, data: &mut BTreeMap<String, Vec<BTreeMap<S
 
 fn main() {
     let start = Path::new("./");
-    //let mut lines = vec![];
     let mut data = BTreeMap::new();
     walkdir(&start, 0, &mut data);
 
@@ -119,19 +103,7 @@ fn main() {
             )
             .unwrap();
         }
-
-        // hari_ke = d - start;
     }
-
-    /*
-    write!(readme_file, "\n\n").unwrap();
-    write!(readme_file, "#### Directory\n").unwrap();
-    write!(readme_file, "\n").unwrap();
-    for line in lines {
-        write!(readme_file, "{}\n", line).unwrap();
-    }
-    println!("Done directory created");
-    */
 
     write!(
         readme_file,
