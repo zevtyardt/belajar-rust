@@ -1,6 +1,6 @@
 #### deskripsi
 
-+ Program untuk menampilkan jadwal sholat
++ Program untuk menampilkan jadwal sholat.
 + Tanggal dibuat: 19 Maret 2023
 
 #### output

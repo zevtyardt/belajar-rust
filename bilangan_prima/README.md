@@ -1,6 +1,6 @@
 #### deskripsi
 
-+ Program untuk mengecek apakah suatu bilangan adalah prima
++ Program untuk mengecek apakah suatu bilangan adalah prima.
 + Tanggal dibuat: 16 Maret 2023
 
 #### output

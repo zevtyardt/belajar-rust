@@ -1,6 +1,6 @@
 #### deskripsi
 
-+ Implementasi algoritma _bitonic sort_
++ Implementasi algoritma _bitonic sort_.
 + Tanggal dibuat: 20 Maret 2023
 
 #### output

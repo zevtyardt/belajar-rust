@@ -1,6 +1,6 @@
 #### deskripsi
 
-+ Program untuk mengecek apakah kalimat termasuk palindrome
++ Program untuk mengecek apakah kalimat termasuk palindrome.
 + Tanggal dibuat: 17 Maret 2023
 
 #### output
