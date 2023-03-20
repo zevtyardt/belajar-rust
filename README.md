@@ -4,7 +4,7 @@
 
 Repo ini berisi semua program yang saya buat dalam rangka belajar bahasa pemrograman Rust
 
-Total 8 program telah dibuat sejauh ini 🎉
+Total 9 program telah dibuat sejauh ini 🎉
 
 </div>
 
@@ -20,6 +20,7 @@ Total 8 program telah dibuat sejauh ini 🎉
 |||[anagram](/anagram)|Program untuk mengecek apakah kedua string merupakan anagram, yaitu kedua string memiliki karakter yang sama, namun urutan karakternya berbeda|
 |5|19 Maret 2023|[jadwal_sholat](/jadwal_sholat)|Program untuk menampilkan jadwal sholat|
 |6|20 Maret 2023|[sorts/bitonic_sort](/sorts/bitonic_sort)|Implementasi algoritma _bitonic sort_|
+|||[sorts/bogo_sort](/sorts/bogo_sort)|Implementasi algoritma _bogo sort_|
 
 
 _dibuat otomatis menggunakan [gen_readme.rs](/gen_readme.rs)_
