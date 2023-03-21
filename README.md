@@ -4,7 +4,7 @@
 
 Repo ini berisi semua program yang saya buat dalam rangka belajar bahasa pemrograman Rust
 
-Total 11 program telah dibuat sejauh ini 🎉
+Total 12 program telah dibuat sejauh ini 🎉
 
 </div>
 
@@ -23,6 +23,7 @@ Total 11 program telah dibuat sejauh ini 🎉
 |||[sorts/bogo_sort](/sorts/bogo_sort)|Implementasi algoritma _bogo sort_.|
 |||[backtracking/all_combinations](/backtracking/all_combinations)|Algoritma recursive backtracking untuk menghasilkan kombinasi.|
 |7|21 Maret 2023|[sorts/bubble_sort](/sorts/bubble_sort)|Implementasi algoritma _bubble sort_.|
+|||[sorts/bucket_sort](/sorts/bucket_sort)|Implementasi algoritma _bucket sort_.|
 
 
 _dibuat otomatis menggunakan [gen_readme.rs](/gen_readme.rs)_
