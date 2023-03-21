@@ -8,7 +8,7 @@ Total 11 program telah dibuat sejauh ini 🎉
 
 </div>
 
-#### Table
+#### Tabel
 
 |Hari ke|Tanggal|Folder|Deskripsi|
 |:--:|:--:|:--|:--|
