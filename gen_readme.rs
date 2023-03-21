@@ -31,7 +31,8 @@ fn walkdir(dir: &Path, indent: usize, data: &mut BTreeMap<String, Vec<BTreeMap<S
                 subdata.insert(
                     String::from("folder"),
                     String::from(format!(
-                        "[{dirname}](/{dirname})",
+                        "[{folder}](/{dirname})",
+                        folder = splited[splited.len() - 2],
                         dirname = dirname.strip_prefix("./").unwrap().display()
                     )),
                 );
