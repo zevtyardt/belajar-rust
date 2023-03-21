@@ -57,7 +57,7 @@ fn main() {
     write!(readme_file, "Repo ini berisi semua program yang saya buat dalam rangka belajar bahasa pemrograman Rust\n\nTotal {} program telah dibuat sejauh ini 🎉\n\n</div>\n", total).unwrap();
 
     write!(readme_file, "\n").unwrap();
-    write!(readme_file, "#### Table\n").unwrap();
+    write!(readme_file, "#### Tabel\n").unwrap();
     write!(readme_file, "\n").unwrap();
     write!(readme_file, "|Hari ke|Tanggal|Folder|Deskripsi|\n").unwrap();
     write!(readme_file, "|:--:|:--:|:--|:--|\n").unwrap();
