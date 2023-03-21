@@ -21,7 +21,7 @@ Total 13 program telah dibuat sejauh ini 🎉
 |5|19 Maret 2023|[jadwal_sholat](/Web_Scraping/jadwal_sholat)|Program untuk menampilkan jadwal sholat.|
 |6|20 Maret 2023|[bitonic_sort](/Sorts/bitonic_sort)|Implementasi algoritma _bitonic sort_.|
 |||[bogo_sort](/Sorts/bogo_sort)|Implementasi algoritma _bogo sort_.|
-|||[all_combinations](/Backtracking/all_combinations)|Algoritma recursive backtracking untuk menghasilkan kombinasi.|
+|||[all_combinations](/Backtracking/all_combinations)|Algoritma recursive backtracking untuk menghasilkan kombinasi angka.|
 |7|21 Maret 2023|[bubble_sort](/Sorts/bubble_sort)|Implementasi algoritma _bubble sort_.|
 |||[bucket_sort](/Sorts/bucket_sort)|Implementasi algoritma _bucket sort_.|
 |||[harga_plus_pajak](/Math/harga_plus_pajak)|Program sederhana untuk menghitung harga ditambah pajak.|
