@@ -23,7 +23,7 @@ fn create_all_state(
 fn get_all_combinations(n: i32, k: i32) -> Vec<Vec<i32>> {
     let mut result = vec![];
     create_all_state(1, n, k, &mut vec![], &mut result);
-    return result
+    result
 }
 
 fn input_number(msg: &str) -> i32 {
