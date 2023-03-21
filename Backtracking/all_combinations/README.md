@@ -1,6 +1,6 @@
 #### deskripsi
 
-+ Algoritma recursive backtracking untuk menghasilkan kombinasi.
++ Algoritma recursive backtracking untuk menghasilkan kombinasi angka.
 + Tanggal dibuat: 20 Maret 2023
 
 #### output
