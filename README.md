@@ -4,7 +4,7 @@
 
 Repo ini berisi semua program yang saya buat dalam rangka belajar bahasa pemrograman Rust
 
-Total 14 program telah dibuat sejauh ini 🎉
+Total 15 program telah dibuat sejauh ini 🎉
 
 </div>
 
@@ -26,6 +26,8 @@ Total 14 program telah dibuat sejauh ini 🎉
 |||[bucket_sort](/Sorts/bucket_sort)|Implementasi algoritma _bucket sort_.|
 |||[harga_plus_pajak](/Math/harga_plus_pajak)|Program sederhana untuk menghitung harga ditambah pajak.|
 |8|22 Maret 2023|[sudoku_solver](/Backtracking/sudoku_solver)|Program untuk menyelesaikan permainan _sudoku_ menggunakan algoritma backtracking.|
+|...||||
+|13|27 Maret 2023|[insertion_sort](/Sorts/insertion_sort)|Implementasi algoritma _insertion sort_.|
 
 
 _dibuat otomatis menggunakan [gen_readme.rs](/gen_readme.rs)_
